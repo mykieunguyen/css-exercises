@@ -1,0 +1,15 @@
+.pink,
+.white {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.pink {
+  background-color: rgb(255, 182, 193);
+  color: white;
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 182, 193);
+}
