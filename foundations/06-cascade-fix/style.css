@@ -1,42 +1,49 @@
-body{
-  font-family:Arial, Helvetica, sans-serif
+/* affects everything */
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* affects first two paragraph */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
+/* affects first paragraph */
+.para {
+  font-size: 30px;
+}
+
+/* affects second paragraph */
 .small-para {
   font-size: 14px;
-  font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
+/* affects both buttons*/
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
+/* affects first button */
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
 }
 
+/* affects line 17-19 */
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* affects div within div-line 19 */
+div.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
